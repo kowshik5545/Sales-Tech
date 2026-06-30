@@ -1,0 +1,141 @@
+%%{
+    init: {
+        'theme': 'base',
+        'themeVariables': {
+            'primaryColor': '#7c3aed',
+            'primaryTextColor': '#ffffff',
+            'secondaryColor': '#2d1b69',
+            'tertiaryColor': '#f5f5f5',
+            'fontFamily': 'Inter, sans-serif',
+        }
+    }
+}%%
+
+%% Sales Tech: Intelligent Sales Rep Assistant Architecture Diagram
+%% Generated with Mermaid
+
+subgraph "Frontend" {
+    graph LR
+    U[User Device] --> B[Browser]
+    
+    subgraph "Client" {
+        P[Pipeline Router] --> S1[Transcription]
+        P --> S2[CRM Extraction]
+        P --> S3[Opportunity Analysis]
+        P --> S4[Email Generation]
+        P --> S5[Coaching Feedback]
+        
+        subgraph "Pipeline Components" {
+            S1[Transcription Stage]
+            S2[CRM Stage]
+            S3[Opportunity Stage]
+            S4[Email Stage]
+            S5[Coaching Stage]
+        }
+        
+        Auth[Auth Context] --> P
+    }
+    
+    B --> Client
+}
+
+subgraph "Backend" {
+    graph TB
+    B[Browser] --> API[FastAPI Gateway]
+    
+    subgraph "API Routes" {
+        API --> /auth[/api/auth/*]
+        API --> /pipeline[/api/pipeline/*]
+        API --> /sessions[/api/sessions]
+    }
+    
+    subgraph "Core Services" {
+        AuthService[Auth Service]
+        WhisperService[Whisper ASR]
+        CRMService[CRM Integration]
+        LLMService[OpenAI LLM]
+        CoachingService[Sales Coach AI]
+    }
+    
+    API --> AuthService
+    API --> WhisperService
+    API --> CRMService
+    API --> LLMService
+    API --> CoachingService
+    
+    subgraph "LangGraph Workflows" {
+        STG[Stage Graph]
+        TRANSCRIPT[Transcript Agent]
+        CRM_EXTRACT[CRM Agent]
+        OPPORTUNITY[Opportunity Agent]
+        EMAIL_GEN[Email Agent]
+        COACHING[Coaching Agent]
+    }
+    
+    subgraph "Database" {
+        DB[(Supabase)]
+        call_sessions[call_sessions]
+        transcripts[transcripts]
+        crm_records[crm_records]
+        email_drafts[email_drafts]
+        coaching_reports[coaching_reports]
+    }
+    
+    WhisperService --> TRANSCRIPT
+    CRMService --> CRM_EXTRACT
+    LLMService --> OPPORTUNITY
+    LLMService --> EMAIL_GEN
+    LLMService --> COACHING
+    TRANSCRIPT --> STG
+    CRM_EXTRACT --> STG
+    OPPORTUNITY --> STG
+    EMAIL_GEN --> STG
+    COACHING --> STG
+    STG --> DB
+}
+
+subgraph "Database Services" {
+    graph LR
+    DB --> session_service[Session Service]
+    DB --> supabase_client[Supabase Client]
+    
+    session_service --> USERS[users]
+    session_service --> call_sessions
+    supabase_client --> call_sessions
+}
+
+subgraph "Mermaid Intermediates" {
+    langgraph[LangGraph Workflow Engine]
+    agents[AIOperations]
+}
+
+STG --> langgraph
+TRANSCRIPT -.-> langgraph
+CRM_EXTRACT -.-> langgraph
+OPPORTUNITY -.-> langgraph
+EMAIL_GEN -.-> langgraph
+COACHING -.-> langgraph
+langgraph --> agents
+
+classDef default fill:#7c3aed,color:#ffffff
+classDef stage fill:#2d1b69,color:#ffffff
+classDef agent fill:#f5f5f5,color:#2d1b69
+classDef db fill:#e9d5ff,color:#7c3aed
+
+class STG stage
+class TRANSCRIPT agent
+class CRM_EXTRACT agent
+class OPPORTUNITY agent
+class EMAIL_GEN agent
+class COACHING agent
+class DB db
+class WhisperService agent
+class CRMService agent
+class LLMService agent
+class CoachingService agent
+class AuthService agent
+class session_service db
+class supabase_client db
+
+style API fill:#7c3aed,stroke:#2d1b69,stroke-width:2px
+style P fill:#7c3aed,stroke:#2d1b69,stroke-width:2px

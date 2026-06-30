@@ -1,0 +1,115 @@
+
+> intelligent-sales-rep-frontend@0.1.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m2215[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m3000[22m/[39m
+[2m12:34:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m12:37:14 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:37:14 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m12:38:21 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/UploadModal.tsx, /src/components/SessionList.tsx, /src/pages/views/UploadView.tsx, /src/pages/views/TranscriptionView.tsx, /src/pages/views/CoachView.tsx, /src/pages/views/EmailView.tsx, /src/pages/views/OpportunityView.tsx, /src/pages/views/CRMView.tsx[22m
+[2m12:38:21 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/UploadModal.tsx, /src/components/SessionList.tsx, /src/pages/views/UploadView.tsx, /src/pages/views/TranscriptionView.tsx, /src/pages/views/CoachView.tsx, /src/pages/views/EmailView.tsx, /src/pages/views/OpportunityView.tsx, /src/pages/views/CRMView.tsx[22m
+[2m12:39:08 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/Overview.tsx[22m
+[2m12:39:09 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:39:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/Overview.tsx[22m
+[2m12:39:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:40:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/UploadView.tsx[22m
+[2m12:40:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:40:33 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/UploadView.tsx[22m
+[2m12:40:33 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:40:59 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/CRMView.tsx[22m
+[2m12:40:59 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:41:23 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/EmailView.tsx[22m
+[2m12:41:23 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:41:45 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/EmailView.tsx[22m
+[2m12:41:45 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:42:09 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/EmailView.tsx[22m
+[2m12:42:10 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:42:31 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/OpportunityView.tsx[22m
+[2m12:42:32 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:42:52 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/TranscriptionView.tsx[22m
+[2m12:42:52 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:43:32 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/CoachView.tsx[22m
+[2m12:43:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/OpportunityView.tsx[22m
+[2m12:43:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:44:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/TranscriptionView.tsx[22m
+[2m12:44:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:45:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/CoachView.tsx[22m
+[2m12:45:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:45:43 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/EmailView.tsx[22m
+[2m12:45:44 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:46:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/TranscriptionView.tsx[22m
+[2m12:46:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m12:47:17 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m12:47:17 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m1:01:31 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m1:01:45 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/CoachView.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/CRMView.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/Overview.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/OpportunityView.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/EmailView.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/UploadView.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/views/TranscriptionView.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/CoachPanel.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/CRMPanel.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/EmailPanel.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/OpportunityPanel.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/SessionList.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/TranscriptPanel.tsx[22m
+[2m1:02:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/UploadModal.tsx[22m
+[2m1:10:00 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m1:10:40 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m4:56:05 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:56:13 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:56:22 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:56:30 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:56:37 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:56:47 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:56:57 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:57:05 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:57:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:57:25 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:57:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:57:44 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:57:53 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:58:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:58:09 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:58:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:58:21 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:58:28 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:58:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:58:43 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:58:50 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:59:12 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m7:38:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m7:38:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m7:38:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m7:38:47 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m7:38:55 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m7:39:05 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m7:41:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m8:12:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m8:12:28 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m8:13:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m8:17:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m8:17:25 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m8:17:46 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m8:19:05 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m8:19:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m8:32:23 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m8:43:44 pm[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m8:43:44 pm[22m [36m[1m[vite][22m[39m server restarted.
+[2m8:53:33 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m8:53:33 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m8:53:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m8:53:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m8:54:28 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m8:54:29 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m9:01:05 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m9:01:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx[22m
+[2m9:01:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m9:01:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m9:02:04 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
